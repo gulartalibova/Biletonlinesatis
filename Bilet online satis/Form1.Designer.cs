@@ -312,7 +312,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(696, 3);
+            pictureBox1.Location = new Point(707, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(203, 94);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -340,6 +340,7 @@
             Controls.Add(listBox1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Cursor = Cursors.Hand;
             Font = new Font("Times New Roman", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
             Margin = new Padding(4);
             Name = "Form1";
